@@ -39,6 +39,7 @@ export default function Portfolio() {
       <ul>
        {list.map((item)=>(
           <PortfolioList 
+            key={item.id}
             id={item.id} 
             title={item.title} 
             active={selected === item.id} 

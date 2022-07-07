@@ -6,11 +6,28 @@ export default function Works() {
   <div className="slider">
     <div className="container">
       <div className="item">
-        <div className="left"></div>
-        <div className="right"></div>
+        <div className="left">
+          <div className="leftContainer">
+            <div className="imgContainer">
+              <img src="assets/mobile.png" alt="" />
+            </div>
+            <h2>Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Odio ut explicabo laudantium voluptate quos quis id ipsa placeat. 
+              Fugit mollitia nobis, architecto nemo vero ad.
+             </p>
+             <span>Projects</span>
+          </div>
+        </div>
+        <div className="right">
+          <img src="assets/random-business-card-generator.png" alt="" />
+        </div>
       </div>
     </div>
   </div>
+  <img src="assets/arrow.png" className="arrow left" alt="" />
+  <img src="assets/arrow.png" className="arrow right" alt="" />
  </div>
   )
 }
