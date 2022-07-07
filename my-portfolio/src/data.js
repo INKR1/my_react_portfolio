@@ -47,7 +47,7 @@ export const webAppPortfolio = [
 
 export const worksData = [
     {
-        id: "1",
+        id: 1,
         icon: "/assets/computer.webp",
         title: "Web App",
         description: "I created a simple calculator in React that handles input changes, user interaction, and complex calculations. Also I builded a business card that fetches a random user data. I did similar things with the weather dashboard.",
@@ -55,7 +55,7 @@ export const worksData = [
         imgFile: "assets/random-business-card-generator.png",
     },
     {
-        id: "2",
+        id: 2,
         icon: "/assets/globe.png",
         title: "Web Development",
         description: "Using React I created a book store where you can add books to the cart and like them. After you add books into the cart you can check depending on the number of books what is the total price. I also created other simple projects using HTML and CSS.",
@@ -63,7 +63,7 @@ export const worksData = [
         imgFile: "assets/book-store.png",
     },
     {
-        id: "3",
+        id: 3,
         icon: "/assets/writing.png",
         title: "Forms",
         description: "I created a simple survey form using only HTML and CSS.",
@@ -72,3 +72,31 @@ export const worksData = [
     }
 
 ]
+
+export const testimonialsData = [
+    {
+      id: 1,
+      name: "John Snape",
+      title: "Senior Developer",
+      img:"assets/james.webp",
+      icon: "assets/twitter.png",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+    },
+    {
+      id: 2,
+      name: "Nick Dumbledore",
+      title: "Freelancer",
+      img:"assets/meowth.png",
+      icon: "assets/youtube.png",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      featured: true,
+    },
+    {
+      id: 3,
+      name: "Linzy McGonagall",
+      title: "Junior Developer",
+      img:"assets/jessie.webp",
+      icon: "assets/Linkedin.png",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+    },
+  ];
