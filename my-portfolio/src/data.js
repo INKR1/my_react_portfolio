@@ -44,3 +44,28 @@ export const webAppPortfolio = [
     },
 
 ];
+
+export const worksData = [
+    {
+        id: "1",
+        icon: "/assets/computer.webp",
+        title: "Web App",
+        description: "I created a calculator, weather dashboard, and business card generator. I used React, Node.js, and CSS to create these apps.",
+        imgFile: "assets/random-business-card-generator.png",
+    },
+    {
+        id: "2",
+        icon: "/assets/globe.webp",
+        title: "Web Development",
+        description: "I created a book store, product landing page, and technical documentation page. I used React, HTML and CSS to create these apps.",
+        imgFile: "assets/book-store.png",
+    },
+    {
+        id: "3",
+        icon: "/assets/writing.png",
+        title: "Forms",
+        description: "I created a simple survey form using only HTML and CSS.",
+        imgFile: "assets/survey-form.png",
+    }
+
+]
