@@ -66,7 +66,7 @@ export const worksData = [
         id: 3,
         icon: "/assets/writing.png",
         title: "Forms",
-        description: "I created a simple survey form using only HTML and CSS.",
+        description: "Simple survey form is one of my firs project. I created this form using only HTML and CSS.",
         projects: "Survey Form",
         imgFile: "assets/survey-form.png",
     }
