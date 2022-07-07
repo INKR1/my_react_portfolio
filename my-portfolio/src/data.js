@@ -50,14 +50,16 @@ export const worksData = [
         id: "1",
         icon: "/assets/computer.webp",
         title: "Web App",
-        description: "I created a calculator, weather dashboard, and business card generator. I used React, Node.js, and CSS to create these apps.",
+        description: "I created a simple calculator in React that handles input changes, user interaction, and complex calculations. Also I builded a business card that fetches a random user data. I did similar things with the weather dashboard.",
+        projects: "Calculator, Weather Dashboard, Business Card Generator",
         imgFile: "assets/random-business-card-generator.png",
     },
     {
         id: "2",
-        icon: "/assets/globe.webp",
+        icon: "/assets/globe.png",
         title: "Web Development",
-        description: "I created a book store, product landing page, and technical documentation page. I used React, HTML and CSS to create these apps.",
+        description: "Using React I created a book store where you can add books to the cart and like them. After you add books into the cart you can check depending on the number of books what is the total price. I also created other simple projects using HTML and CSS.",
+        projects: "Book Store, Product Landing Page, Technical Documentation Page, Tribute Page",
         imgFile: "assets/book-store.png",
     },
     {
@@ -65,6 +67,7 @@ export const worksData = [
         icon: "/assets/writing.png",
         title: "Forms",
         description: "I created a simple survey form using only HTML and CSS.",
+        projects: "Survey Form",
         imgFile: "assets/survey-form.png",
     }
 

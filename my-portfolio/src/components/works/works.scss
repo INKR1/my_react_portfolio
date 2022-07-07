@@ -21,10 +21,11 @@
     }
 
     .slider {
-        height: 350px;
+        height: 400px;
         display: flex;
         position: absolute;
         left: 0;
+        transition: all 1s ease-out;
 
         .container {
             width: 100vw;
@@ -43,14 +44,14 @@
 
                 .left {
                     flex: 4;
-                    height: 80%;
+                    height: 90%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
 
                     .leftContainer {
                         width: 90%;
-                        height: 70%;
+                        height: 90%;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
@@ -74,14 +75,20 @@
                         }
 
                         p {
-                            font-size: 13px; 
+                            font-size: 14px;
+                            text-align: justify; 
+                        }
+
+                        h4{
+                            font-size: 14px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer; 
                         }
 
                         span {
                             font-size: 12px;
-                            font-weight: 600;
-                            text-decoration: underline;
-                            cursor: pointer;
+                            text-align: justify;
                         }
                     }
                 }
@@ -92,6 +99,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    overflow: hidden;
 
                     img {
                         width: 400px;
