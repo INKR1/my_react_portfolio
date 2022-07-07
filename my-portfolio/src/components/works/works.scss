@@ -99,6 +99,10 @@
 
                             img {
                                 width: 25px;
+
+                                @include mobile {
+                                    width: 15px;
+                                }
                             }
                         }
 
