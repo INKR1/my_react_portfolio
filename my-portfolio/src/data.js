@@ -81,6 +81,7 @@ export const testimonialsData = [
       img:"assets/james.webp",
       icon: "assets/twitter.png",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+      featured: true,
     },
     {
       id: 2,
@@ -89,7 +90,7 @@ export const testimonialsData = [
       img:"assets/meowth.png",
       icon: "assets/youtube.png",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
-      featured: true,
+    //   featured: true,
     },
     {
       id: 3,
@@ -98,5 +99,6 @@ export const testimonialsData = [
       img:"assets/jessie.webp",
       icon: "assets/Linkedin.png",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+    //   featured: true,
     },
   ];
